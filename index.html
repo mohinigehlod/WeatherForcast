@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="index.css">    
+</head>
+<body>
+    <div id="maindiv">
+
+      <div id="dashboard">
+          <h2>Weather Deshboard</h2>
+      </div>
+
+            <div style="display: flex;">
+                <div id="sidediv">
+                  <div id="searchdiv">
+                    <label for="cityname" >Enter a City Name</label><br><br>
+                    <input type="text" placeholder="E.g, New York, Londan, Tokyo" id="cityname" name="cityname"><br><br>
+                    <button id="searchBtn" >Search</button>
+                     <div class="line-text">OR</div>
+                      <button id="currentLocBtn" >Use Current Location</button>
+                      <img id="girlid" src="./image/girl3.webp" alt="">
+                  </div>
+                </div>
+            
+
+            <div id="showWeatherdiv">
+                <div id="currentWeather">
+                   <div id="content">
+                    <h2></h2>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                   </div> 
+
+                   <div id="imagecoontent">
+                         <img src="./image/thunderstorm_8324701.png" alt="error">
+                         <p>Light Rain</p>
+                   </div> 
+                </div>
+
+                <div id="heading">
+                <h3>5-Days Forcast</h3>
+                </div>
+
+                <div id="forcast">
+                    <div class="dayforcast"></div>
+                    <div class="dayforcast"></div>
+                    <div class="dayforcast"></div>
+                    <div class="dayforcast"></div>
+                    <div class="dayforcast"></div>
+                </div> 
+            </div>
+             
+             
+        </div>
+        
+
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
